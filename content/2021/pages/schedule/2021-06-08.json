@@ -1,0 +1,79 @@
+{
+  "slots": [
+    {
+      "time": "09:00",
+      "title": "Kickoff and Keynote",
+      "break": "short"
+    },
+    {
+      "title": "Contributor Relations",
+      "hasDiscussions": true,
+      "break": "short",
+      "talks": [
+        {
+          "speakerHandler": "brandonroberts"
+        },
+        {
+          "speakerHandler": "rnjudge"
+        },
+        {
+          "speakerHandler": "bwplotka"
+        }
+      ]
+    },
+    {
+      "title": "Maintainer Health",
+      "time": "11:00",
+      "hasDiscussions": false,
+      "break": "long",
+      "talks": [
+        {
+          "speakerHandler": "balloob"
+        },
+        {
+          "speakerHandler": "mylesborins"
+        },
+        {
+          "speakerHandler": "webchick"
+        }
+      ]
+    },
+    {
+      "title": "Project Health",
+      "time": "12:15",
+      "hasDiscussions": true,
+      "break": "short",
+      "talks": [
+        {
+          "speakerHandler": "helen"
+        },
+        {
+          "speakerHandler": "lorenanicole"
+        },
+        {
+          "speakerHandler": "ashleygwilliams"
+        }
+      ]
+    },
+    {
+      "title": "Measuring Success",
+      "time": "13:30",
+      "hasDiscussions": false,
+      "talks": [
+        {
+          "speakerHandler": "vertedinde"
+        },
+        {
+          "speakerHandler": "zkoppert"
+        }
+      ]
+    },
+    {
+      "time": "14:00",
+      "title": "Closing"
+    },
+    {
+      "title": "Hangout"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+:root {
+  // Private variables
+
+  // Neutral colors
+  --white: hsla(0, 0%, 100%, 1); // #FFFFFF
+  --gray-200: hsla(204, 15%, 94%, 1); // #ECEFF1
+  --gray-400: hsla(198, 16%, 84%, 1); // #CFD8DC
+
+  // Palette
+  --salmon: hsla(358, 87%, 73%, 1); // #F68084
+  --purple: hsla(281, 75%, 59%, 1); // #B349E5
+  --deep-purple: hsla(279, 97%, 35%, 1); //#7203AE
+  --navy: hsla(277, 96%, 11%, 1); // #230138
+  --lime: hsla(97, 81%, 48%, 1); //#64dd17
+  --pastel-green: hsla(142.1, 65.4%, 64.9%, 1); //#6BE096
+  --anakiwa: hsla(200.2, 100%, 76.1%, 1); //#85D6FF
+  --seaweed: hsla(109.2, 49.4%, 15.5%, 1); //#1B3B14
+  --firefly: hsla(186, 53.6%, 11%, 1); //#0D282B
+  --pale-sky: hsla(211.6, 8.2%, 45.3%, 1); //#6A737D
+  --white-lilac: hsla(220, 42.9%, 98.6%, 1); //#FAFBFD
+  --stratos: hsla(210, 33%, 9%, 0.2); //#000033
+
+  // Gradients
+  --grad-transparent-gray: linear-gradient(
+    90deg,
+    hsla(204, 15%, 94%, 0) 0%,
+    hsla(204, 15%, 94%, 1) 100%
+  ); // Transparent to #ECEFF1
+
+  --grad-navigation-mobile: linear-gradient(
+    135deg,
+    var(--purple) 0%,
+    var(--salmon) 100%
+  ); // Transparent to #ECEFF1
+
+  // Background Colors
+  --bg-body: var(--white);
+  --bg-primary: var(--purple);
+  --bg-primary-dark: var(--deep-purple);
+  --bg-dark: var(--navy);
+  --bg-accent: var(--salmon);
+  --bg-dimmed: var(--gray-400);
+  --bg-close-icon: var(--gray-400);
+  --bg-hamburger: var(--navy);
+  --bg-hamburger--open: var(--white);
+  --bg-feedback--success: var(--pastel-green);
+  --bg-feedback--warning: var(--anakiwa);
+  --bg-button--light: var(--white);
+  --bg-button--dark: var(--navy);
+
+  // Border Colors
+  --bc-button--light: var(--purple);
+  --bc-button--dark: var(--white);
+
+  // Font Colors
+  --fc-default: var(--navy);
+  --fc-primary: var(--purple);
+  --fc-accent: var(--salmon);
+  --fc-light: var(--white);
+  --fc-dimmed: var(--gray-400);
+  --fc-dimmed--darker: var(--pale-sky);
+  --fc-feedback--success: var(--firefly);
+  --fc-feedback--warning: var(--seaweed);
+
+  // Box shadow
+  --bs-header: var(--stratos);
+  --bs-button--light: var(--deep-purple);
+  --bs-button--dark: var(--purple);
+
+  // Others
+  --underline-color: var(--salmon);
+  --input-border--hover: var(--lime);
+}

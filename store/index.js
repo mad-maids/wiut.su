@@ -1,9 +1,16 @@
+import { IANA_PDT_TIMEZONE } from '~/utils/date-utils'
+
 export const state = () => ({
-  adBlocked: false
+  userTimeZoneIANA: null,
+  defaultTimeZoneIANA: IANA_PDT_TIMEZONE,
+  selectedTimeZone: IANA_PDT_TIMEZONE,
 })
 
 export const mutations = {
-  setAdBlocked(state, value) {
-    state.adBlocked = value
-  }
+  updateUserTimeZone(state, newTimeZone) {
+    state.userTimeZoneIANA = newTimeZone
+  },
+  updateSelectedTimeZone(state, newTimeZone) {
+    state.selectedTimeZone = newTimeZone
+  },
 }
