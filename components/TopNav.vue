@@ -18,10 +18,10 @@
         <div class="nav__brand">
           <nuxt-link to="/" class="nav__home">
             <div class="nav__home-gh--desktop">
-              <span>Global Maintainer Summit</span>
-              <span class="nav__home-hosted">hosted by GitHub</span>
+              <span>Students' Union</span>
+              <span class="nav__home-hosted">hosted by Mad Maids</span>
             </div>
-            <span class="nav__home-gh--mobile">GMS</span>
+            <span class="nav__home-gh--mobile">SU</span>
           </nuxt-link>
           <span class="nav__home-date">2021</span>
         </div>
