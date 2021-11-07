@@ -12,7 +12,7 @@ export default {
           to: '/maintainers',
         },
         {
-          label: 'Projects',
+          label: 'Clubs',
           to: '/projects',
         },
       ],

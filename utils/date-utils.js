@@ -1,7 +1,7 @@
 import { zonedTimeToUtc, utcToZonedTime, format } from 'date-fns-tz'
 
 const TIME_FORMAT = 'h:mm aaa'
-export const IANA_PDT_TIMEZONE = 'America/Los_Angeles' // This is one of the timezones that belong to PDT timing in IANA timezones
+export const IANA_PDT_TIMEZONE = 'Asia/Tashkent' // This is one of the timezones that belong to PDT timing in IANA timezones
 
 /**
  * Formats two given dates with the following patterns:
