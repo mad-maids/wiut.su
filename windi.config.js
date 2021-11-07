@@ -7,16 +7,16 @@ export default {
       transparent: 'transparent',
       current: 'currentColor',
       primary: {
-        50: '#f2fafd',
-        100: '#e6f5fc',
-        200: '#bfdff6',
-        300: '#99cff1',
-        400: '#4db9e7',
-        DEFAULT: '#0088dc',
-        600: '#008bc6',
-        700: '#004984',
-        800: '#004563',
-        900: '#003042'
+        50: '#F2FDF9',
+        100: '#E6FCF3',
+        200: '#BFF6E0',
+        300: '#99F1CD',
+        400: '#4DE7A8',
+        DEFAULT: '#00DC82',
+        600: '#00C675',
+        700: '#00844E',
+        800: '#00633B',
+        900: '#004227'
       },
       'secondary-surface': '#E5F9FF',
       'secondary-lightest': '#B7E1ED',
@@ -42,16 +42,16 @@ export default {
       blue: colors.lightBlue,
       green: {
         // 50: "#eefdf2",
-        50: '#d0dafc',
-        100: '#b0bafc',
-        200: '#8c9bfa',
-        300: '#647cf4',
-        400: '#3740e9',
-        500: '#0032d7',
-        600: '#0010bb',
-        700: '#001999',
-        800: '#041a73',
-        900: '#131d4d'
+        50: '#d0fcde',
+        100: '#b0fccb',
+        200: '#8cfab7',
+        300: '#64f4a3',
+        400: '#37e990',
+        500: '#00d77d',
+        600: '#00bb6a',
+        700: '#009956',
+        800: '#047342',
+        900: '#134d2e'
         // 950: "#132a1c",
       },
       red: colors.red,
@@ -100,6 +100,84 @@ export default {
         darkest: '#2D2E01',
         black: '#1F2100'
       }
+
+      // 'green-lighter': '#80EEC0',
+      // 'green-light': '#40E5A1',
+      // green: '#00DC82',
+      // 'green-dark': '#00BB6F',
+      // 'green-darker': '#009A5B',
+      // $colorGreenLighter: #80EEC0;
+      // $colorGreenLight: #40E5A1;
+      // $colorGreenDefault: #00DC82;
+      // $colorGreenDark: #00BB6F;
+      // $color-greenDarker: #009A5B;
+      // $colorNeutralWhite: #FFFFFF;
+      // $colorNeutralBlack: #000000;
+      // $colorGreenLighter: #80EEC0;
+      // $colorGreenLight: #40E5A1;
+      // $colorGreenDefault: #00DC82;
+      // $colorGreenDark: #00BB6F;
+      // $color-greenDarker: #009A5B;
+      // $colorPearLighter: #ECF3AA;
+      // $colorPearLight: #E0EB74;
+      // $colorPearDefault: #D1E231;
+      // $colorPearDark: #BDCE1D;
+      // $colorPearDarker: #9CAA18;
+      // $colorYellowLighter: #FFF2AC;
+      // $colorYellowLight: #FFEC83;
+      // $colorYellowDefault: #FFE65A;
+      // $colorYellowDark: #D9C34D;
+      // $colorYellowDarker: #B3A13F;
+      // $colorOrangeLighter: #F9C580;
+      // $colorOrangeLight: #F7A840;
+      // $colorOrangeDefault: #F48B00;
+      // $colorOrangeDark: #CF7600;
+      // $colorOrangeDarker: #AB6100;
+      // $colorRedLighter: #FFB1A3;
+      // $colorRedLight: #FF8B74;
+      // $colorRedDefault: #FF6446;
+      // $colorRedDark: #D9553C;
+      // $colorRedDarker: #B34631;
+      // $colorPinkLighter: #FCBBCF;
+      // $colorPinkLight: #FB9AB7;
+      // $colorPinkDefault: #FA789F;
+      // $colorPinkDark: #D56687;
+      // $colorPinkDarker: #AF546F;
+      // $colorPurpleLighter: #E0B5DF;
+      // $colorPurpleLight: #D190CE;
+      // $colorPurpleDefault: #C26BBE;
+      // $colorPurpleDark: #A55BA2;
+      // $colorPurpleDarker: #884B85;
+      //
+      // $colorBlueLighter: #94D5F7;
+      // $colorBlueLight: #5EBFF4;
+      // $colorBlueDefault: #28AAF0;
+      // $colorBlueDark: #2291CC;
+      // $colorBlueDarker: #1C77A8;
+      // $colorTealLighter: #80F2F2;
+      // $colorTealLight: #40EBEB;
+      // $colorTealDefault: #00E5E5;
+      // $colorTealDark: #00C3C3;
+      // $colorTealDarker: #00A0A0;
+      //
+      // $colorCloudSurface: #E6F0F0;
+      // $colorCloudLightest: #D1E2E2;
+      // $colorCloudLighter: #B2CCCC;
+      // $colorCloudLight: #92ADAD;
+      // $colorCloudDefault: #688282;
+      // $colorCloudDark: #566B6B;
+      // $colorCloudDarker: #334040;
+      // $colorCloudDarkest: #273131;
+      // $colorCloudBlack: #1A2121;
+      // $colorStoneSurface: #F6F6F6;
+      // $colorStoneLightest: #D4D4D4;
+      // $colorStoneLighter: #B2B2B2;
+      // $colorStoneLight: #909090;
+      // $colorStoneDefault: #6E6E6E;
+      // $colorStoneDark: #4C4C4C;
+      // $colorStoneDarker: #2A2A2A;
+      // $colorStoneDarkest: #191919;
+      // $colorStoneBlack: #080808;
     },
     extend: {
       fontFamily: {

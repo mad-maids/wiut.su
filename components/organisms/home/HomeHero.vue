@@ -36,7 +36,10 @@
             sm:space-y-0 sm:space-x-3
             xl:space-x-4
           "
-        ></div>
+        >
+          <Markdown use="primary-button" unwrap="p" />
+          <Markdown use="secondary-button" unwrap="p" />
+        </div>
       </section>
     </div>
   </div>

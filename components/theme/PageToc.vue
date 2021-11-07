@@ -51,6 +51,8 @@
 
         <PageTocList :toc="toc" />
       </div>
+
+      <PageTocBottom />
     </div>
   </div>
 </template>

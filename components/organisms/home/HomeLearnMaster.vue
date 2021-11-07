@@ -34,6 +34,16 @@
               <Markdown use="description" unwrap="p" />
             </p>
           </template>
+
+          <template #content>
+            <CodeBlockAnimation class="w-full text-gray-50" />
+          </template>
+
+          <template #button>
+            <div class="w-full self-start">
+              <Markdown use="bottom" unwrap="p" />
+            </div>
+          </template>
         </SectionContent>
       </template>
     </HomeSection>

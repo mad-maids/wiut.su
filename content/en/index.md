@@ -1,13 +1,13 @@
 ---
 template: blank
-title: 'WIUT SU'
+title: 'The Intuitive Vue Framework'
 description: 'Build your next Vue.js application with confidence using Nuxt. An open source framework making web development simple and powerful.'
 bgClass: 'bg-white'
 ---
 
 ::home-hero
 #title
-An Organization<br>For Students
+The Intuitive Vue<br>Framework
 
 #description
 Build your next Vue.js application with confidence using Nuxt.<br class="hidden sm:block" /> An open source framework making web development simple and powerful.

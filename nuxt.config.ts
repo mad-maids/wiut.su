@@ -1,10 +1,11 @@
 import { resolve } from 'path'
 import { withDocus } from '@docus/app'
 
+// Learn more at https://docus.dev
 export default withDocus({
   rootDir: __dirname,
   head: {
-    titleTemplate: 'WIUT SU - %s',
+    titleTemplate: 'Nuxt - %s',
     link: [
       {
         rel: 'stylesheet',
@@ -13,9 +14,9 @@ export default withDocus({
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' }
     ],
     meta: [
-      { hid: 'og:site_name', property: 'og:site_name', content: 'WIUT SU' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Nuxt' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@uwussimo' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@nuxt_js' },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
@@ -34,7 +35,7 @@ export default withDocus({
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: 'WIUT SU'
+        content: 'Nuxt'
       },
       {
         hid: 'twitter:image',
@@ -63,6 +64,7 @@ export default withDocus({
   plugins: [
     '~/plugins/mq',
     '~/plugins/gtag.client',
+    '~/plugins/adblock.client',
     '~/plugins/clipboard.client',
     '~/plugins/v-tooltip.ts',
     '~/plugins/showcases',
@@ -153,6 +155,18 @@ export default withDocus({
         iso: 'en-US',
         file: 'en-US.js',
         name: 'English'
+      },
+      {
+        code: 'fr',
+        iso: 'fr-FR',
+        file: 'fr-FR.js',
+        name: 'Français'
+      },
+      {
+        code: 'ja',
+        iso: 'ja-JP',
+        file: 'ja-JP.js',
+        name: '日本語'
       }
     ]
   },
