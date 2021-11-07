@@ -1,30 +1,34 @@
-<img align="center" src="./.github/logo.svg"/><br/>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Website and documentation of [Nuxt](https://nuxtjs.org)
+## Getting Started
 
-We are using [Docus](https://nuxtlabs.com/docus) to write our documentation (*we plan to open source it in the following weeks once the documentation is ready*). It is similar to Nuxt Content [Docs theme](https://content.nuxtjs.org/themes/docs) but with an advanced syntax to use Vue components without having to write HTML (support props and slots).
-
-## Setup
+First, run the development server:
 
 ```bash
-git clone https://github.com/nuxt/nuxtjs.org.git
-cd nuxtjs.org/
-npm install
-```
-
-We also recommend to install the [Docus extension](https://marketplace.visualstudio.com/items?itemName=NuxtLabs.docus) for VS Code.
-
-## Development
-
-Start the development server on [http://localhost:4000](http://localhost:4000)
-
-```bash
+npm run dev
+# or
 yarn dev
 ```
 
-The pages are generated from [docs/content/](./docs/content), you can start editing them to start helping us on documenting Nuxt 💚
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## License
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Design materials for website</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Nuxt project</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/nuxt/nuxtjs.org" rel="dct:source">nuxt/nuxtjs.org</a>.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
