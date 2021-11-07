@@ -1,11 +1,10 @@
 import { resolve } from 'path'
 import { withDocus } from '@docus/app'
 
-// Learn more at https://docus.dev
 export default withDocus({
   rootDir: __dirname,
   head: {
-    titleTemplate: 'Nuxt - %s',
+    titleTemplate: '%s | WIUT SU',
     link: [
       {
         rel: 'stylesheet',
@@ -14,9 +13,9 @@ export default withDocus({
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' }
     ],
     meta: [
-      { hid: 'og:site_name', property: 'og:site_name', content: 'Nuxt' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'WIUT SU' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@nuxt_js' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@uwussimo' },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
@@ -47,7 +46,7 @@ export default withDocus({
       class: ['min-w-xs']
     }
   },
-  css: [resolve(__dirname, './assets/nuxt.css')],
+  css: [resolve(__dirname, './assets/global.css')],
   build: {
     transpile: ['ohmyfetch'],
     loaders: {
