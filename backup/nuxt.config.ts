@@ -46,7 +46,7 @@ export default withDocus({
       class: ['min-w-xs']
     }
   },
-  css: [resolve(__dirname, './assets/nuxt.css')],
+  css: [resolve(__dirname, './assets/global.css')],
   build: {
     transpile: ['ohmyfetch'],
     loaders: {
@@ -110,22 +110,6 @@ export default withDocus({
   },
   image: {
     domains: [
-      'strapi.nuxtjs.org',
-      'tailwindcss.nuxtjs.org',
-      'storybook.nuxtjs.org',
-      'firebase.nuxtjs.org',
-      'pwa.nuxtjs.org',
-      'image.nuxtjs.org',
-      'http.nuxtjs.org',
-      'cloudinary.nuxtjs.org',
-      'i18n.nuxtjs.org',
-      'snipcart.nuxtjs.org',
-      'prismic.nuxtjs.org',
-      'google-analytics.nuxtjs.org',
-      'color-mode.nuxtjs.org',
-      'mdx.nuxtjs.org',
-      'sanity.nuxtjs.org',
-      'speedcurve.nuxtjs.org',
       'pbs.twimg.com',
       'source.unsplash.com',
       'images.unsplash.com',
@@ -136,13 +120,11 @@ export default withDocus({
       'https://res.cloudinary.com/nuxt/',
       'npmjs.com',
       'cdn.krutiepatel.com',
-      'nuxtjs.org',
       'i.imgur.com',
       'avatars0.githubusercontent.com',
       'avatars1.githubusercontent.com',
       'avatars2.githubusercontent.com',
-      'avatars3.githubusercontent.com',
-      'modules.nuxtjs.org'
+      'avatars3.githubusercontent.com'
     ]
   },
   i18n: {
