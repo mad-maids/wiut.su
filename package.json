@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
-    "@nuxtjs/style-resources": "^1.1.0",
+    "@nuxtjs/style-resources": "^1.2.1",
     "calendar-link": "^2.1.1",
     "core-js": "^3.14.0",
     "date-fns": "^2.25.0",
