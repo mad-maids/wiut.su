@@ -67,9 +67,5 @@
     "stylelint-scss": "^3.19.0",
     "webpack": "^4.46.0",
     "webpack-dev-server": "^3.11.2"
-  },
-  "engines": {
-    "node": ">= 15.8.0 <16",
-    "npm": ">= 7.5.0 <8"
   }
 }
