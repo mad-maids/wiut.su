@@ -26,6 +26,7 @@
     "@nuxtjs/style-resources": "^1.1.0",
     "calendar-link": "^2.1.1",
     "core-js": "^3.14.0",
+    "date-fns": "^2.25.0",
     "focus-trap": "^6.5.1",
     "focus-trap-vue": "^1.1.1",
     "nuxt": "^2.15.7",
@@ -67,7 +68,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "engines": {
-    "node": ">= 15.8.0 <16",
+    "node": ">= 14 <16",
     "npm": ">= 7.5.0 <8"
   }
 }
