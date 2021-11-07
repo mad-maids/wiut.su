@@ -1,9 +1,9 @@
 {
-  "name": "global-maintainers-summit",
+  "name": "wiut.su",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt --port 5000",
+    "dev": "nuxt --port 4000",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -26,7 +26,8 @@
     "@nuxtjs/style-resources": "^1.1.0",
     "calendar-link": "^2.1.1",
     "core-js": "^3.14.0",
-    "date-fns-tz": "^1.1.4",
+    "date-fns": "^2.25.0",
+    "date-fns-tz": "^1.1.6",
     "focus-trap": "^6.5.1",
     "focus-trap-vue": "^1.1.1",
     "nuxt": "^2.15.7",

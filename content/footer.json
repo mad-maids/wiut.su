@@ -1,15 +1,15 @@
 {
   "footer": {
     "madeWith": "Made with",
-    "github": "by GitHub",
+    "github": "by Mad Maids",
     "links": [
       {
-        "label": "Terms",
-        "url": "https://docs.github.com/en/github/site-policy/github-terms-of-service"
+        "label": "Organisation",
+        "url": "https://github.com/mad-maids"
       },
       {
-        "label": "Privacy",
-        "url": "https://docs.github.com/en/github/site-policy/github-privacy-statement"
+        "label": "WIUT",
+        "url": "https://wiut.uz"
       }
     ],
     "contact": {
@@ -18,7 +18,7 @@
     },
     "project": {
       "label": "GitHub",
-      "url": "https://github.com/github/globalmaintainersummit.github.com"
+      "url": "https://github.com/mad-maids/wiut-su"
     }
   }
 }

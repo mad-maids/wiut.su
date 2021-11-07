@@ -2,10 +2,10 @@ const socialMetadata = {
   head() {
     const title = this.metadata?.title
       ? this.metadata.title
-      : 'Global Maintainers Summit Event 2021'
+      : 'Students Union at WIUT'
     const description = this.metadata?.description
       ? this.metadata.description
-      : 'A virtual event for the maintainers that make open source possible, hosted by GitHub.'
+      : 'An organisation that helps student at WIUT.'
     const image = this.metadata?.image
       ? this.metadata.image
       : 'https://globalmaintainersummit.github.com/social-card-past.jpg'
