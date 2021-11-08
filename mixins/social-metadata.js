@@ -8,7 +8,7 @@ const socialMetadata = {
       : 'An organisation that helps student at WIUT.'
     const image = this.metadata?.image
       ? this.metadata.image
-      : 'https://globalmaintainersummit.github.com/social-card-past.jpg'
+      : 'https://wiutsu.uz/social-card-past.jpg'
     const meta = [
       {
         hid: 'description',
