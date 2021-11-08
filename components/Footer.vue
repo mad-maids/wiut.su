@@ -20,7 +20,9 @@
         {{ footer.contact.label }}
       </CommonLink>
       <CommonLink :href="footer.project.url">Repository</CommonLink>
-      <CommonLink to="/code-of-conduct">Code of Conduct</CommonLink>
+      <CommonLink :href="footer.license.url">{{
+        footer.license.label
+      }}</CommonLink>
     </div>
   </footer>
 </template>

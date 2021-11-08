@@ -8,7 +8,7 @@ export default {
     return {
       options: [
         {
-          label: 'Maintainers',
+          label: 'Members',
           to: '/maintainers',
         },
         {

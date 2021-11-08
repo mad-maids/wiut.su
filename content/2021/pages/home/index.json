@@ -3,13 +3,13 @@
     "title": "An Organization made by Wiuterians for Wiuterians namely Studeents Union...",
     "lead": "We are at YOUR service!",
     "live": {
-      "title": "Welcome to the Global Maintainer Summit. Stay awhile!",
-      "lead": "Mingle with maintainers in the interactive Gathertown hallway track."
+      "title": "Welcome to the WIUT SU. Stay awhile!",
+      "lead": "We are an organization where all magic stuff happen."
     }
   },
   "dates": {
-    "startDate": "2021-06-08",
-    "endDate": "2021-06-09"
+    "startDate": "2021-11-08",
+    "endDate": "2021-11-09"
   },
   "newsletter": {
     "lead": "Stay in the know",
@@ -26,10 +26,10 @@
     "highlightedBlock": {
       "title": "Our Main Objective",
       "bulletPoints": [
-        "What is possible to automate,<br>and what will always need to be hand–crafted?",
-        "When it comes to contributors,<br>when do you accept help and when do you say no?",
-        "Is it possible to (gasp) take a vacation?",
-        "When everything was on fire,<br>how did you put out the flames?"
+        "Do something...",
+        "Do something...",
+        "Do something...",
+        "Do something...,<br>Do something...?"
       ],
       "description": "<p>We’ll tackle all that, and much more.</p><p>We’re here for each other, us as a whole organization.</p>"
     }
@@ -40,16 +40,16 @@
   },
   "followEvent": {
     "title": "Follow us",
-    "hashtag": "#studentsunion",
+    "hashtag": "#yourhashtag",
     "lead": "Open source maintainers joining you live from all around the world.",
     "description": "During the event we'll be hosting a virtual hallway experience in Gather. Jump in to explore and to talk with those standing closest to you, focusing on smaller or personal conversations."
   },
   "gatherTown": {
     "joinUs": "Join us on Telegram",
-    "link": "https://gather.town/app/vo3JY7JsISpTYeY5/GlobalMaintainerSummit"
+    "link": "https://t.me/"
   },
   "calendarEvent": {
     "title": "Upcoming Events",
-    "description": "<p>A virtual gathering for the maintainers that make open source possible</p><a href=\"https://globalmaintainersummit.github.com/\">https://globalmaintainersummit.github.com/</a>"
+    "description": "<p>Upcoming events organized by Students Union for Wiuterians</p><a href=\"https://wiutsu.uz/\">https://wiutsu.uz/</a>"
   }
 }

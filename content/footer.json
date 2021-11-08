@@ -4,7 +4,7 @@
     "github": "by Mad Maids",
     "links": [
       {
-        "label": "Organisation",
+        "label": "Maids",
         "url": "https://github.com/mad-maids"
       },
       {
@@ -13,12 +13,16 @@
       }
     ],
     "contact": {
-      "label": "opensource@github.com",
-      "mailto": "opensource@github.com"
+      "label": "your@email.com",
+      "mailto": "your@email.com"
     },
     "project": {
       "label": "GitHub",
-      "url": "https://github.com/mad-maids/wiut-su"
+      "url": "https://github.com/mad-maids/wiut.su"
+    },
+    "license": {
+      "label": "License",
+      "url": "https://github.com/mad-maids/wiut.su/blob/main/license"
     }
   }
 }
