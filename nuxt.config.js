@@ -1,5 +1,4 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
     base: process.env.BASE_PATH || '/',
@@ -10,9 +9,8 @@ export default {
   env: {
     fathomToken: process.env.FATHOM_TOKEN || null,
   },
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Global Maintainers Summit Event 2021',
+    title: 'Students Union',
     htmlAttrs: {
       lang: 'en',
     },
@@ -32,46 +30,25 @@ export default {
       { rel: 'manifest', href: '/site.webmanifest' },
     ],
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/scss/index.scss'],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/vue-youtube-embed.js',
     { src: '~/plugins/user-timezone.js', mode: 'client' },
   ],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     '@nuxtjs/style-resources',
   ],
-
   styleResources: {
     scss: [
       './assets/scss/variables/main.scss',
       './assets/scss/mixins/main.scss',
     ],
   },
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content',
-    '@nuxtjs/svg',
-  ],
-
-  // Content module configuration: https://go.nuxtjs.dev/config-content
+  modules: ['@nuxt/content', '@nuxtjs/svg'],
   content: {},
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     loaders: {
       scss: { sourceMap: false },
