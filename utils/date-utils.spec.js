@@ -36,18 +36,18 @@ describe('Date utils', () => {
   describe('Format Date Long', () => {
     it('formats a single date in long format', () => {
       const actualDate = formatDateLong('2021-06-08')
-      const expectedDate = 'Tuesday ⌁ June 8, 2021'
+      const expectedDate = 'Tuesday ⌁ June 7, 2021'
 
       expect(actualDate).not.toBeUndefined()
       expect(actualDate).toEqual(expectedDate)
     })
   })
 
-  describe('Converts America/Los_Angeles (PDT) Time', () => {
+  describe('Converts Asia/Tashkent (PDT) Time', () => {
     const cases = [
-      ['2021-06-08 09:00:00', 'Europe/Madrid', '6:00 pm'],
-      ['2021-06-09 09:00:00', 'Europe/London', '5:00 pm'],
-      ['2021-06-09 09:00:00', 'America/Los_Angeles', '9:00 am'],
+      ['2021-06-08 09:00:00', 'Europe/Madrid', '6:00 am'],
+      ['2021-06-09 09:00:00', 'Europe/London', '5:00 am'],
+      ['2021-06-09 09:00:00', 'Asia/Tashkent', '9:00 am'],
     ]
     test.each(cases)(
       'Converts %p to %p time zone',
