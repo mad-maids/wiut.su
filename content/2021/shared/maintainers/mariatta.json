@@ -1,6 +1,6 @@
 {
   "handler": "mariatta",
-  "featured": true,
+  "featured": false,
   "profile": {
     "name": "Mariatta Wijaya",
     "bio": "<p>Mariatta is a Python core developer based in Vancouver, Canada. She focuses on Python core-workflow, documentation, and community-building.</p><p>She's currently working to get the Python Documentation Work Group off the ground, and has started doing Open Source Diary video series on YouTube.</p>",

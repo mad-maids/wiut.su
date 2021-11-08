@@ -1,6 +1,6 @@
 {
   "handler": "potatoqualitee",
-  "featured": true,
+  "featured": false,
   "profile": {
     "name": "Chrissy LeMaire",
     "bio": "<p>Chrissy is a Cloud and Datacenter Management Data Platform MVP who has worked in IT for over 20 years. She is the creator of the popular SQL PowerShell module dbatools, holds a master's degree in Systems Engineering and is coauthor of Learn dbatools in a Month of Lunches.</p>",

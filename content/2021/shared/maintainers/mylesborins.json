@@ -1,6 +1,6 @@
 {
   "handler": "mylesborins",
-  "featured": true,
+  "featured": false,
   "profile": {
     "name": "Myles Borins",
     "bio": "<p>Myles Borins is a developer, musician, artist and maker. They work at GitHub as an Open Source Product Manager, is a Technical Steering Committee member of the Node.js project, and a board member of the OpenJS Foundation. Myles cares about the open web and healthy communities.</p>",
