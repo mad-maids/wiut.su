@@ -23,12 +23,12 @@ const socialMetadata = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@github',
+        content: '@wiutsu',
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@github',
+        content: '@wiutsu',
       },
       {
         hid: 'twitter:title',
