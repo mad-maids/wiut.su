@@ -101,8 +101,8 @@ export default {
   data() {
     return {
       showDropdown: false,
-      label: 'Select a calendar to save the conference date',
-      title: 'Save the Date',
+      label: 'Select a calendar to save the event date',
+      title: 'Save Events',
       calendarEvent: null,
       options: [
         { name: 'Apple', key: KEY_CALENDAR_APPLE },
