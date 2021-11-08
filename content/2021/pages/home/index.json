@@ -20,8 +20,8 @@
   },
   "content": {
     "normalBlock": {
-      "title": "Open source project management is uniquely challenging and rewarding work.",
-      "description": "<p>Calling all past, present, and future maintainers -—whether you're waiting for your first issue or you've triaged 2000 before lunch. Join us for honest talks and conversations on your challenges, triumphs, and projects.</p><p>While we spend lots of time in our own communities we rarely get the chance to get together with maintainers of other projects to laugh, cry, celebrate and share. At the Global Maintainer Summit, we’re taking the time to have those conversations and would love you to join us.</p><p>We’ll feature a wide variety of lightning talks on different projects’ approach to common problems. In between, we’ll chat with each other, and know we’re not alone in the issues we face.</p><p>Global Maintainer Summit is your chance to build collaborative relationships with other maintainers, cultivate new skills to reinforce your resiliency and avoid burnout, and explore solutions to the myriad of shared challenges maintainers face.</p>"
+      "title": "Here will be title of why we need SU. Below, detailed description",
+      "description": "<p>Calling all past, present, and future maintainers -—whether you're waiting for your first issue or you've triaged 2000 before lunch. Join us for honest talks and conversations on your challenges, triumphs, and projects.</p><p>While we spend lots of time in our own communities we rarely get the chance to get together with maintainers of other projects to laugh, cry, celebrate and share.</p><p>We’ll feature a wide variety of lightning talks on different projects’ approach to common problems. In between, we’ll chat with each other, and know we’re not alone in the issues we face.</p>"
     },
     "highlightedBlock": {
       "title": "Our Main Objective",
@@ -35,14 +35,14 @@
     }
   },
   "maintainers": {
-    "title": "Maintainers",
-    "cta": "All Maintainers"
+    "title": "SU Members & Staffs",
+    "cta": "All Members"
   },
   "followEvent": {
     "title": "Follow us",
     "hashtag": "#yourhashtag",
-    "lead": "Open source maintainers joining you live from all around the world.",
-    "description": "During the event we'll be hosting a virtual hallway experience in Gather. Jump in to explore and to talk with those standing closest to you, focusing on smaller or personal conversations."
+    "lead": "Some text about our social actities like why we do this shit.",
+    "description": "We are happy to see you as one of us so join us and become an honourable member of SU. Together, everything might come possible!"
   },
   "gatherTown": {
     "joinUs": "Join us on Telegram",
